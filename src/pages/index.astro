@@ -6,10 +6,36 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Carlos Roa | Portfolio</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class=" bg-blue-950 flex justify-center items-center 
+	w-full min-h-screen
+	">
+		<main class="font-sans font text-white rounded-lg bg-ds-strgray min-w-[360px] overflow-hidden">
+			<div class="banner w-full min-h-[120px] bg-night-banner bg-cover bg-center bg-no-repeat"></div>
+			<div class="p-4 w-full [&>*]:mb-8">
+				<section class="w-full flex items-start justify-between relative">
+					<div class="pic w-[110px] relative ">
+						<img src="/images/profile-pic.jpg" alt="Profile Picture" class="
+						aspect-square rounded-[100%] -translate-y-[50px] border-ds-strgray border-[5px]
+						absolute top-0 left-0
+						">
+						<div class="status absolute bg-green-700 w-7 h-7 rounded-xl border-ds-strgray border-[5px] left-[75px] bottom-[-50px]">
+						</div>
+					</div>
+					
+					<div class="flex gap-2 bg-ds-gray py-1 px-3 rounded-lg [&>img]:w-[25px]">
+						<img src="/images/Tech_Stack/atom.png" alt="React">
+						<img src="/images/Tech_Stack/java-script.png" alt="Javascript">
+						<img src="/images/Tech_Stack/magento.png" alt="Magento">
+						<img src="/images/Tech_Stack/mongo.png" alt="Magento">
+					</div>
+				</section>
+				<section>
+					<h4 class="text-3xl">Carlos Roa</h4>
+					<h4 class="text-lg opacity-[0.60]">@roacdev</h4>
+				</section>
+			</div>
+		</main>
 	</body>
 </html>
