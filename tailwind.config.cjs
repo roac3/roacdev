@@ -8,10 +8,14 @@ module.exports = {
 				'ds-gray': '#2c2f33',
 				'ds-lightgray': '#99aab5',
 				'ds-white': '#ffffff',
-				'ds-blue':  '#7289da'
+				'ds-blue':  '#7289da',
+				'lighttext': '#828587'
 			},
 			backgroundImage: {
 				'night-banner': 'url("/images/night-banner.gif")'
+			},
+			fontFamily:{
+				Nunito: 'Nunito Sans'
 			}
 		},
 	},
