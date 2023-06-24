@@ -12,39 +12,168 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Carlos Roa | Portfolio</title>
 	</head>
-	<body class=" bg-blue-950 flex justify-center items-center 
-	w-full min-h-screen
-	">
-		<main class="font-Nunito text-white rounded-lg bg-ds-strgray min-w-[360px] overflow-hidden shadow-2xl">
-			<div class="banner w-full min-h-[120px] bg-night-banner bg-cover bg-center bg-no-repeat"></div>
-			<div class="p-4 w-full ">
-				<section class="w-full flex items-start justify-between relative mb-8">
-					<div class="pic w-[110px] relative ">
-						<img src="/images/profile-pic.jpg" alt="Profile Picture" class="
-						aspect-square rounded-[100%] -translate-y-[50px] border-ds-strgray border-[5px]
-						absolute top-0 left-0
-						">
-						<div class="status absolute bg-green-700 w-7 h-7 rounded-xl border-ds-strgray border-[5px] left-[75px] bottom-[-50px]">
-						</div>
-					</div>
-					
-					<div class="flex gap-2 bg-ds-gray py-1 px-3 rounded-lg [&>img]:w-[30px]">
-						<img src="/images/Tech_Stack/atom.png" alt="React">
-						<img src="/images/Tech_Stack/java-script.png" alt="Javascript">
-						<img src="/images/Tech_Stack/magento.png" alt="Magento">
-						<img src="/images/Tech_Stack/mongo.png" alt="Magento">
-					</div>
-				</section>
-				<section class="mb-1">
-					<h2 class="text-3xl font-bold">Carlos Roa</h2>
-					<h3 class="text-lg text-lighttext">@roacdev</h3>
-					<h4 class="font-light flex justify-start items-center"> <img src="/images/old-pc.png" alt="Old PC" class="w-[40px] aspect-square"> Playing <span class="font-bold text-white ml-1">Visual Studio Code</span></h4>
-				</section>
-				<section class="about  font-bold">
-					<h3>ABOUT ME</h3>
-				</section>
+	<body class=" bg-blue-950">
+		<header class="w-full sticky top-0 z-10 bg-blue-900 h-[50px]">
+			
+		</header>
 
+		<main class="flex flex-col justify-center gap-5 items-center w-full min-h-[calc(100vh-50px)] px-[5%] md:flex-row md:justify-between 
+		">
+			<!-- <div class="titles">
+				<h1 class=" font-white text-[55px] text-white">Hi! I'm Carlos </h1>
+			</div> -->
+
+			<div class="cajita w-full h-screen flex justify-center items-start flex-col 
+		animate-fade-up animate-once animate-duration-[650ms] animate-ease-out animate-normal animate-fill-both">
+			<div class="editor w-[800px] [&>div]:w-full rounded-xl overflow-hidden shadow-xl">
+				<div class="h-8 bg-ds-gray flex justify-start items-center gap-2 px-5 [&>button]:aspect-square [&>button]:w-[20px] [&>button]:rounded-xl  ">
+					<button class=" bg-red-700"></button>
+					<button class=" bg-yellow-400"></button>
+					<button class=" bg-lime-600"></button>
+				</div>
+				<div class="h-[400px] p-5 pl-0 bg-ds-strgray flex">
+					<div class="lines px-2 mr-4 text-ds-lightgray h-full w-2 text-center">
+						<p>
+							1 </br>
+							2 </br>
+							3 </br>
+							4 </br>
+							5 </br>
+							6 </br>
+							7 </br>
+							8 </br>
+							9 </br>
+							10 </br>
+							11 </br>
+							12 </br>
+							13 </br>
+							14 </br>
+							15 </br>
+						</p>
+					</div>
+					<p class="text-white font-Nunito font-bold">
+					&lt;div&gt; 
+					</br>
+
+					&lt;/div&gt;
+					</p>
+				</div>
 			</div>
+			</div>
+
+			<div class="card font-Nunito text-white rounded-lg bg-ds-strgray w-[80%] max-w-[360px] overflow-hidden shadow-2xl text-ds-lightgray
+			animate-fade-up animate-once animate-duration-[650ms] animate-ease-out animate-normal animate-fill-both ">
+				<div class="banner w-full min-h-[120px] bg-night-banner bg-cover bg-center bg-no-repeat"></div>
+				<div class="p-4 w-full ">
+					<section class="w-full flex items-start justify-between relative mb-8">
+						<div class="pic w-[110px] relative ">
+							<img src="/images/profile-pic.jpg" alt="Profile Picture" class="
+							aspect-square rounded-[100%] -translate-y-[50px] border-ds-strgray border-[5px]
+							absolute top-0 left-0
+							">
+							<div class="status absolute bg-green-700 w-7 h-7 rounded-xl border-ds-strgray border-[5px] left-[75px] bottom-[-50px]">
+							</div>
+						</div>
+						
+						<div class="flex gap-2 bg-ds-gray py-1 px-3 rounded-lg [&>img]:w-[30px]">
+							<img src="/images/Tech_Stack/atom.png" alt="React">
+							<img src="/images/Tech_Stack/java-script.png" alt="Javascript">
+							<img src="/images/Tech_Stack/magento.png" alt="Magento">
+							<img src="/images/Tech_Stack/mongo.png" alt="Magento">
+						</div>
+					</section>
+					<section class="mb-1">
+						<h2 class="text-3xl font-bold text-white">Carlos Roa</h2>
+						<h3 class="text-lg text-lighttext">@roacdev</h3>
+						<h4 class="font-light flex justify-start items-center"> <img src="/images/old-pc.png" alt="Old PC" 
+							class="w-[40px] aspect-square text-ds-lightgray font-light"> Playing <span class="font-bold text-white ml-1">Visual Studio Code</span></h4>
+					</section>
+					<section class="about font-bold text-sm text-lighttext">
+						<h4>ABOUT ME</h4>
+						<p class="text-sm mb-4 ">24 years old</p>
+
+						<ul class="text-white">
+							<li class="flex">
+								<a href="https://github.com/roac3" target="_blank" class="text-blue-500 hover:text-blue-700">Github</a>
+								<svg class="-ml-1 mr-2 h-4 w-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+							</li>
+							<li>Frontend Developer 💻</li>
+							<li>Developer in Development 🤖</li>
+						</ul>
+					</section>
+					<section class="my-4">
+						<h4 class="text-sm text-lighttext font-bold">MEMBER SINCE</h4>
+						<div class="w-full flex gap-2 items-center text-m">
+							<span>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 20" class="inline-block h-5 w-5 fill-zinc-700 align-bottom dark:fill-slate-400"><path d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"></path></svg>
+							</span>
+							July 15, 2020
+							<div class="dot h-2 aspect-square bg-ds-lightgray rounded-xl"></div>
+							<span>
+								<img src="/images/map.svg" alt="" class="h-5 w-5">
+							</span>
+							Dec 03, 1998
+						</div>
+					</section>
+					<section class="my-4">
+						<h4 class="text-sm text-lighttext mb-1 font-bold">ROLES</h4>
+						<div class="w-full flex flex-wrap gap-2 items-center text-m [&>div]:py-[3px] [&>div]:px-[8px] [&>div]:bg-ds-gray [&>div]:flex [&>div]:items-center
+							[&>div]:gap-1 [&>div]:rounded-md [&>div]:cursor-pointer ">
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-cyan-500"></div> <span>React</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-yellow-500"></div> <span>Javascript</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-green-500"></div> <span>MongoDB</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-orange-700"></div> <span>Astro</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-green-700"></div> <span>Node.js</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-blue-500"></div> <span>Tailwind</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-purple-500"></div> <span>PHP</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-orange-500"></div> <span>Magento</span></div>
+							<div class="React"> <div class="rounded-xl aspect-square w-3 bg-gray-500"></div> <span>Wordpress</span></div>
+
+						</div>
+					</section>
+
+				</div>
+			</div>			
 		</main>
+
+		<div class="cajita w-full h-screen flex justify-center items-center flex-col 
+		animate-fade-up animate-once animate-duration-[650ms] animate-ease-out animate-normal animate-fill-both">
+			<div class="editor w-[800px] [&>div]:w-full rounded-xl overflow-hidden shadow-xl">
+				<div class="h-8 bg-ds-gray flex justify-start items-center gap-2 px-5 [&>button]:aspect-square [&>button]:w-[20px] [&>button]:rounded-xl  ">
+					<button class=" bg-red-700"></button>
+					<button class=" bg-yellow-400"></button>
+					<button class=" bg-lime-600"></button>
+				</div>
+				<div class="h-[400px] p-5 pl-0 bg-ds-strgray flex">
+					<div class="lines px-2 mr-4 text-ds-lightgray h-full w-2 text-center">
+						<p>
+							1 </br>
+							2 </br>
+							3 </br>
+							4 </br>
+							5 </br>
+							6 </br>
+							7 </br>
+							8 </br>
+							9 </br>
+							10 </br>
+							11 </br>
+							12 </br>
+							13 </br>
+							14 </br>
+							15 </br>
+						</p>
+					</div>
+					<p class="text-white font-Nunito font-bold">
+					&lt;div&gt; 
+					</br>
+
+					&lt;/div&gt;
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- <script src="../scripts/script.js"></script> -->
 	</body>
 </html>

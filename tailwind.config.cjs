@@ -4,12 +4,12 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'ds-strgray': '#23272a',
-				'ds-gray': '#2c2f33',
-				'ds-lightgray': '#99aab5',
+				'ds-strgray': '#1E1F22',
+				'ds-gray': '#303338',
+				'ds-lightgray': '#6F7279',
 				'ds-white': '#ffffff',
 				'ds-blue':  '#7289da',
-				'lighttext': '#828587'
+				'lighttext': '#A1A6AC'
 			},
 			backgroundImage: {
 				'night-banner': 'url("/images/night-banner.gif")'
@@ -17,7 +17,9 @@ module.exports = {
 			fontFamily:{
 				Nunito: 'Nunito Sans'
 			}
-		},
+		}
 	},
-	plugins: [],
+	plugins: [
+		require('tailwindcss-animated')
+	],
 }
