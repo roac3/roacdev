@@ -1,14 +1,15 @@
 addEventListener('load',()=>{
-    const card = document.querySelector('.card')
+    const $card = document.querySelector('.cajita')
 
     function animationUp(){
-        let Ypos= scrollY
+        var windowheight = window.innerHeight;
+        var pPoint = $card.getBoundingClientRect().top;
+        var animationpoint = 250;
 
-        if (Ypos > (card.getBoundingClientRect().top + 550)){
-            card.classList.add('animate-fade-up')
-            console.log('now')
+        if (pPoint < windowheight - animationpoint){
+            $card.classList.add('animate-fade-up')
         }else{
-            card.classList.remove('animate-fade-up')
+            $card.classList.remove('animate-fade-up')
         }
     
     }
