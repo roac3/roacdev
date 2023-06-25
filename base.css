@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.animation-up{
+    @apply animate-fade-up animate-once animate-duration-[650ms] animate-ease-out animate-normal animate-fill-both;
+}
