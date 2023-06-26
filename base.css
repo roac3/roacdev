@@ -2,7 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.animation-up{
-    @apply animate-fade-up animate-once animate-duration-[650ms] animate-ease-out animate-normal animate-fill-both;
+.html{
+    @apply text-red-500;
 }
+.class{
+    @apply text-orange-500;
+}
+.text-class{
+    @apply text-lime-500;
+}
+
+@layer utilities{
+    .type{
+        background:
+        linear-gradient(-90deg,white 2px,#0000 0) 10px 0,
+        linear-gradient(#00DFFC 0 0) 0 0;
+      background-size:calc(var(--n)*1ch) 200%;
+      -webkit-background-clip:padding-box,text;
+      background-repeat:no-repeat;
+      animation: 
+        b .7s infinite steps(1),   
+        t calc(var(--n)*.1s) steps(var(--n)) forwards;
+    }
+    @keyframes t{
+      from {background-size:0 200%}
+    }
+    @keyframes b{
+      50% {background-position:0 -100%,0 0}
+    }
+} 
